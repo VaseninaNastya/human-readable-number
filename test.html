@@ -1,4 +1,13 @@
-module.exports = function toReadable (number) {
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function toReadable (number) {
     let stringNumbersArr1 = ['zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine']
     let stringNumbersArr2 = ['ten','eleven','twelve', 'thirteen', 'fourteen', 'fifteen', 'sixteen', 'seventeen', 'eighteen', 'nineteen']
     let stringNumbersArr3 = ['twenty', 'thirty', 'forty', 'fifty', 'sixty', 'seventy', 'eighty', 'ninety']
@@ -12,6 +21,7 @@ module.exports = function toReadable (number) {
     }
     if  (numberArr.length ==2){
         if(newArr[1]=='zero'&&newArr[0]=='one'){
+            console.log('ghjdthz.');
             return "ten"
         }
         if(newArr[1]=='zero'){
@@ -47,3 +57,8 @@ module.exports = function toReadable (number) {
         }
     }
 }
+console.log('итого', toReadable (10));
+
+    </script>
+</body>
+</html>
